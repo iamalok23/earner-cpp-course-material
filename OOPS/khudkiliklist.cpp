@@ -71,9 +71,9 @@ class MyLinkedList{
         for(int i=0; i<=idx-1;i++){
             temp = temp->next;
         }
-         n->next = temp->next;
-         temp->next = n;
-         length++;
+        n->next = temp->next;
+        temp->next = n;
+        length++;
     }
     int get(int idx){
         if(idx<0 or idx>=length){
